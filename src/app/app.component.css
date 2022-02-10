@@ -1,0 +1,28 @@
+
+.logo {
+    width: 130px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.table td {
+    height: 80px;
+}
+
+@media only screen and (max-width: 425px) {
+    .coin-symbol {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .coin-name {
+        display: none;
+    }
+
+    .table td {
+        padding-right: 0px;
+    }
+
+}
